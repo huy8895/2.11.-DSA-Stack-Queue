@@ -17,7 +17,7 @@ public class ReverseString {
             stack.push(element);
 
         while (!stack.isEmpty())
-            outString.append(stack.pop() + " ");
+            outString.append(stack.pop()).append(" ");
         System.out.println(outString);
     }
 }
