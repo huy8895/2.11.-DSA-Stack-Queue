@@ -8,7 +8,7 @@ public class ReverseIntegerArray {
     public static void main(String[] args) {
         int [] arrInt = new int[]{1,3,4,12,5};
 
-        Stack<Integer> stack = new Stack<Integer>();
+        Stack<Integer> stack = new Stack<>();
         for (Integer integer : arrInt)
             stack.push(integer);
 
