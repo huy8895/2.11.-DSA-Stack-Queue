@@ -9,7 +9,7 @@ public class ReverseString {
         System.out.println("Enter String :");
 
         String string = scanner.nextLine();
-        StringBuilder outString = new StringBuilder(100);
+        StringBuilder outString = new StringBuilder();
 
         String[] strArr = string.split(" ");
         Stack<String> stack = new Stack<>();
