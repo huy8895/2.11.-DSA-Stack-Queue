@@ -17,7 +17,7 @@ public class CountingWords {
 
         for (String str : ArrStr){
             str = str.toLowerCase();
-            int countKey = 0;
+            int countKey = 1;
 
             if (map.containsKey(str)){
                 countKey ++;
