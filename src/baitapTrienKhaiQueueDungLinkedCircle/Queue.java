@@ -25,7 +25,7 @@ public class Queue {
         this.rear = null;
     }
 
-    class Node {
+    static class Node {
         int data;
         Node link;
 
