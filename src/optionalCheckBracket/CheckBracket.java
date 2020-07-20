@@ -18,7 +18,7 @@ public class CheckBracket {
         stringToArray();
     }
 
-    private void setString() {
+    public void setString() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter String: ");
         this.string = scanner.nextLine();
