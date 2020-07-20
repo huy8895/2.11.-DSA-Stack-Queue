@@ -75,7 +75,7 @@ public class Queue {
         }
 
         StringBuilder result = new StringBuilder();
-        result.append("[" + front.data);
+        result.append("[").append(front.data);
         while (temp.link!= this.front){
             result.append(" , ").append(temp.link.data);
             temp = temp.link;
